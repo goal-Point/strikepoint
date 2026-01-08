@@ -1,12 +1,17 @@
-export default function Home() {
-  return (
-    <main style={{ padding: "40px" }}>
-      <h1>STRIKEPOINT</h1>
-      <p>Predict the point of impact.</p>
+import Header from "./components/Header";
 
-      <p style={{ marginTop: "20px", color: "green" }}>
-        ✅ Website is now working correctly
-      </p>
-    </main>
+export const metadata = {
+  title: "KNGO",
+  description: "Skill-based football competitions",
+};
+
+export default function RootLayout({ children }) {
+  return (
+    <html lang="en">
+      <body style={{ margin: 0, fontFamily: "Arial, sans-serif" }}>
+        <Header />
+        {children}
+      </body>
+    </html>
   );
 }
