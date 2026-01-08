@@ -1,2 +1,3 @@
-# strikepoint
-STRIKEPOINT – football skill competition website
+# KNGO
+
+KNGO – skill-based football competition platform.
