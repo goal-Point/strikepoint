@@ -1,5 +1,4 @@
 import Header from "./components/Header";
-import SpinModal from "./components/SpinModal";
 
 export const metadata = {
   title: "KNGO",
@@ -13,12 +12,11 @@ export default function RootLayout({ children }) {
         style={{
           margin: 0,
           fontFamily: "Inter, Arial, sans-serif",
-          backgroundColor: "#0b0b0b",
-          color: "#ffffff",
+          backgroundColor: "#f7f7f7",
+          color: "#111",
         }}
       >
         <Header />
-        <SpinModal />
         {children}
       </body>
     </html>
