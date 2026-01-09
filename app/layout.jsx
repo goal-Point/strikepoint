@@ -1,4 +1,5 @@
-import Header from "../components/Header";
+import Header from "./components/Header";
+import SpinModal from "./components/SpinModal";
 
 export const metadata = {
   title: "KNGO",
@@ -17,6 +18,7 @@ export default function RootLayout({ children }) {
         }}
       >
         <Header />
+        <SpinModal />
         {children}
       </body>
     </html>
