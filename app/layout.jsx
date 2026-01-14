@@ -1,17 +1,9 @@
-import "./globals.css";
-
-export const metadata = {
-  title: "KNGO",
-  description: "Win big with skill-based football competitions",
-};
-
-export default function RootLayout({ children }) {
+export default function Home() {
   return (
-    <html lang="en">
-      <body className="bg-black text-white">
-        {children}
-      </body>
-    </html>
+    <main className="min-h-screen flex items-center justify-center bg-black text-white">
+      <h1 className="text-4xl font-bold">
+        KNGO Homepage Loaded
+      </h1>
+    </main>
   );
 }
-
