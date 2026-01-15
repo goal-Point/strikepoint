@@ -1,16 +1,8 @@
-import "./globals.css";
-
-export const metadata = {
-  title: "KNGO",
-  description: "KNGO Website",
-};
-
-export default function RootLayout({ children }) {
+export default function Home() {
   return (
-    <html lang="en">
-      <body>
-        {children}
-      </body>
-    </html>
+    <div style={{ padding: "40px" }}>
+      <h1>KNGO HOME PAGE WORKING</h1>
+      <p>If you can see this, the homepage is loading correctly.</p>
+    </div>
   );
 }
